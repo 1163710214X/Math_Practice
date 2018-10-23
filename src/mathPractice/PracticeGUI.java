@@ -353,6 +353,7 @@ public class PracticeGUI {
 		}
 		// 显示成绩
 		JLBScores.setText("你的成绩为：" + scores);
+		/**
 		if(scores==100)
         {
           JFrame newf = new JFrame("祝贺");
@@ -383,5 +384,6 @@ public class PracticeGUI {
             JFrame newf = new JFrame("讨打");
             JOptionPane.showMessageDialog(newf, "你不及格了，等着挨打吧");
           }
+          **/
 	}
 }

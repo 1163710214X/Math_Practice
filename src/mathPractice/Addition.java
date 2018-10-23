@@ -9,7 +9,6 @@ public class Addition extends Operation {
 	public Addition(int n) {
 		super(ch, n);
 	}
-
 	@Override
 	public void operation() {
 		correctAnswer = op1 + op2;
